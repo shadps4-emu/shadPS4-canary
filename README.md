@@ -1,3 +1,15 @@
+# shadPS4 Canary #1
+
+Built from [main@b7c0f18bc](https://github.com/shadps4-emu/shadPS4/commit/b7c0f18bc3189065161074cec46f0e246d66c461) with these pull requests:
+
+| Pull Request | Commit | Title | Author | Merged? |
+|----|----|----|----|----|
+
+
+End of merge log. The original README.md follows.
+
+-----
+
 <!--
 SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
 SPDX-License-Identifier: GPL-2.0-or-later
