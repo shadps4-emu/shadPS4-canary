@@ -1,3 +1,17 @@
+# shadPS4 Canary #4
+
+Built from [main@c4f869958](https://github.com/shadps4-emu/shadPS4/commit/c4f8699581ef1f795a74669cc12fadf440cbe4a1) with these pull requests:
+
+| Pull Request | Commit | Title | Author | Merged? |
+|----|----|----|----|----|
+| [#5713](https://github.com/shadps4-emu/shadPS4/pull/5713) | [`1fbc0a6ab`](https://github.com/shadps4-emu/shadPS4/pull/5713/commits/1fbc0a6abb760a1e94110a207bee64b769d46201) | shader_recompiler: DS_ORDERED_COUNT | [baggins183](https://github.com/baggins183) | Yes |
+| [#5754](https://github.com/shadps4-emu/shadPS4/pull/5754) | [`fb6a8f572`](https://github.com/shadps4-emu/shadPS4/pull/5754/commits/fb6a8f5727335f575c228303ba8ad71f1e2a97fb) | video_core: texture binding improvements | [LNDF](https://github.com/LNDF) | Yes |
+
+
+End of merge log. The original README.md follows.
+
+-----
+
 <!--
 SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
 SPDX-License-Identifier: GPL-2.0-or-later
