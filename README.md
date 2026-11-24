@@ -1,3 +1,22 @@
+# shadPS4 Canary #10
+
+Built from [main@5c3b6910b](https://github.com/shadps4-emu/shadPS4/commit/5c3b6910b99ea4e4d019533490137fe80e400306) with these pull requests:
+
+| Pull Request | Commit | Title | Author | Merged? |
+|----|----|----|----|----|
+| [#5548](https://github.com/shadps4-emu/shadPS4/pull/5548) | [`69e831d8b`](https://github.com/shadps4-emu/shadPS4/pull/5548/commits/69e831d8b511d3b6cb23d6b5a3c92296b7cf4685) | cpu_patches: rewrite FS overrides to GS in place on Linux and FreeBSD | [mavethee](https://github.com/mavethee) | Yes |
+| [#5670](https://github.com/shadps4-emu/shadPS4/pull/5670) | [`b71389ccd`](https://github.com/shadps4-emu/shadPS4/pull/5670/commits/b71389ccdfa384fa0ae93ad5ee2a9b97860f950a) | kernel: Align pthread structure layout and separate host context | [mavethee](https://github.com/mavethee) | Yes |
+| [#5700](https://github.com/shadps4-emu/shadPS4/pull/5700) | [`858563fbc`](https://github.com/shadps4-emu/shadPS4/pull/5700/commits/858563fbc2072c29583e091fb1d089d932a5c062) | kernel: Make sceKernelWaitEventFlag block in an alertable wait | [RikuKH3](https://github.com/RikuKH3) | Yes |
+| [#5713](https://github.com/shadps4-emu/shadPS4/pull/5713) | [`1fbc0a6ab`](https://github.com/shadps4-emu/shadPS4/pull/5713/commits/1fbc0a6abb760a1e94110a207bee64b769d46201) | shader_recompiler: DS_ORDERED_COUNT | [baggins183](https://github.com/baggins183) | Yes |
+| [#5738](https://github.com/shadps4-emu/shadPS4/pull/5738) | [`baaf6a387`](https://github.com/shadps4-emu/shadPS4/pull/5738/commits/baaf6a38725c3de16cdfb40f77041e1f8d21856d) | shader_recompiler: Support off-chip and DYNAMIC_HS tessellation | [vjt](https://github.com/vjt) | Yes |
+| [#5739](https://github.com/shadps4-emu/shadPS4/pull/5739) | [`98505c369`](https://github.com/shadps4-emu/shadPS4/pull/5739/commits/98505c3694c23ed595aee58016d3974844a414d3) | shader_recompiler: Keep image address operands alive with a no-op | [vjt](https://github.com/vjt) | Yes |
+| [#5754](https://github.com/shadps4-emu/shadPS4/pull/5754) | [`2f2c8404c`](https://github.com/shadps4-emu/shadPS4/pull/5754/commits/2f2c8404c17efd5edbdbbcda1e20da635abf2b9e) | video_core: texture binding improvements | [LNDF](https://github.com/LNDF) | Yes |
+
+
+End of merge log. The original README.md follows.
+
+-----
+
 <!--
 SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
 SPDX-License-Identifier: GPL-2.0-or-later
