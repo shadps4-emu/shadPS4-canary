@@ -1,3 +1,26 @@
+# shadPS4 Canary #18
+
+Built from [main@e94b9798b](https://github.com/shadps4-emu/shadPS4/commit/e94b9798bc52e2454aac07a99dec39fb248a52ea) with these pull requests:
+
+| Pull Request | Commit | Title | Author | Merged? |
+|----|----|----|----|----|
+| [#5190](https://github.com/shadps4-emu/shadPS4/pull/5190) | [`ba622f00b`](https://github.com/shadps4-emu/shadPS4/pull/5190/commits/ba622f00bb2c3ff5e69eaaf40ee69f703c09f620) | video_core / renderer_vulkan: PM4 packet improvements and draw predication | [mavethee](https://github.com/mavethee) | Yes |
+| [#5548](https://github.com/shadps4-emu/shadPS4/pull/5548) | [`69e831d8b`](https://github.com/shadps4-emu/shadPS4/pull/5548/commits/69e831d8b511d3b6cb23d6b5a3c92296b7cf4685) | cpu_patches: rewrite FS overrides to GS in place on Linux and FreeBSD | [mavethee](https://github.com/mavethee) | Yes |
+| [#5582](https://github.com/shadps4-emu/shadPS4/pull/5582) | [`89029beb8`](https://github.com/shadps4-emu/shadPS4/pull/5582/commits/89029beb859607ea8f234b74824a8a514ac12524) | video_core: Implement hardware occlusion queries | [mavethee](https://github.com/mavethee) | No (no changes) |
+| [#5670](https://github.com/shadps4-emu/shadPS4/pull/5670) | [`b71389ccd`](https://github.com/shadps4-emu/shadPS4/pull/5670/commits/b71389ccdfa384fa0ae93ad5ee2a9b97860f950a) | kernel: Align pthread structure layout and separate host context | [mavethee](https://github.com/mavethee) | Yes |
+| [#5700](https://github.com/shadps4-emu/shadPS4/pull/5700) | [`006c7208e`](https://github.com/shadps4-emu/shadPS4/pull/5700/commits/006c7208edf2af46ef267a19f3dea405ac93fe34) | kernel: Make sceKernelWaitEventFlag block in an alertable wait | [RikuKH3](https://github.com/RikuKH3) | Yes |
+| [#5713](https://github.com/shadps4-emu/shadPS4/pull/5713) | [`1fbc0a6ab`](https://github.com/shadps4-emu/shadPS4/pull/5713/commits/1fbc0a6abb760a1e94110a207bee64b769d46201) | shader_recompiler: DS_ORDERED_COUNT | [baggins183](https://github.com/baggins183) | Yes |
+| [#5738](https://github.com/shadps4-emu/shadPS4/pull/5738) | [`baaf6a387`](https://github.com/shadps4-emu/shadPS4/pull/5738/commits/baaf6a38725c3de16cdfb40f77041e1f8d21856d) | shader_recompiler: Support off-chip and DYNAMIC_HS tessellation | [vjt](https://github.com/vjt) | Yes |
+| [#5739](https://github.com/shadps4-emu/shadPS4/pull/5739) | [`98505c369`](https://github.com/shadps4-emu/shadPS4/pull/5739/commits/98505c3694c23ed595aee58016d3974844a414d3) | shader_recompiler: Keep image address operands alive with a no-op | [vjt](https://github.com/vjt) | Yes |
+| [#5745](https://github.com/shadps4-emu/shadPS4/pull/5745) | [`5edf35d3e`](https://github.com/shadps4-emu/shadPS4/pull/5745/commits/5edf35d3e5436e31e9fd4e3f062ed1c53c2ebc33) | video_core: Unmap texture cache images on the GPU thread | [vjt](https://github.com/vjt) | Yes |
+| [#5768](https://github.com/shadps4-emu/shadPS4/pull/5768) | [`6204747a1`](https://github.com/shadps4-emu/shadPS4/pull/5768/commits/6204747a11cdb65064bc173c118ec0bafd65dda1) | shader_recompiler: Do 32_32 image atomics on an R64ui view | [vjt](https://github.com/vjt) | Yes |
+| [#5781](https://github.com/shadps4-emu/shadPS4/pull/5781) | N/A | Core: Memory Manager Rewrite | [StevenMiller123](https://github.com/StevenMiller123) | No (no maintainer approval) |
+
+
+End of merge log. The original README.md follows.
+
+-----
+
 <!--
 SPDX-FileCopyrightText: 2026 shadPS4 Emulator Project
 SPDX-License-Identifier: GPL-2.0-or-later
